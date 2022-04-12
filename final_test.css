@@ -1,0 +1,109 @@
+#h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box1 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px black;
+    background-color: grey;
+    margin-top: 50px;
+    overflow: hidden;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 400px;
+}
+.box1 .box-title1 {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    right: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: pink;
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box2 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px black;
+    background-color: grey;
+    margin-top: 50px;
+    overflow: hidden;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 400px;
+}
+.box2 .box-title2 {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    right: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: red;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box3 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px black;
+    background-color: grey;
+    margin-top: 50px;
+    overflow: hidden;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 400px;
+}
+.box3 .box-title3 {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    right: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #FFC107;
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+.box3 p {
+    margin: 0; 
+    padding: 0;
+}
+
+p {
+    display: inline;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
